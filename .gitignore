@@ -2,3 +2,4 @@
 .vscode
 downloaded_models
 .python-version
+poetry.lock
