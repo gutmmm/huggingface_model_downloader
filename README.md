@@ -2,7 +2,8 @@
 
 This Python script allows you to download models from Hugging Face's model hub. It takes a URL of a model page on the Hugging Face website, identifies the download links for the model files, and downloads them to a specified directory. 
 ### ⚠️ IMPORTANT NOTE
-The link must me the tab of the `Files and versions` in the HF model page. (Example: [https://huggingface.co/TheBloke/Llama-2-7B-AWQ/tree/main])
+The link must me the tab of the `Files and versions` in the HF model page. 
+(Example: [https://huggingface.co/TheBloke/Llama-2-7B-AWQ/tree/main])
 
 
 ### 🚀 Usage
@@ -23,7 +24,7 @@ This command will automatically install all required dependencies.
 poetry shell
 ```
 
-1. Run the Script: Finally, execute the script using the following command:
+3. Run the Script: Finally, execute the script using the following command:
 
 ```bash
 python downloader.py
